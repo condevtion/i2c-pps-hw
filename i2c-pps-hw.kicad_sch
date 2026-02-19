@@ -1,0 +1,37 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "512c4d3f-92f6-4670-bf9b-2123d46bbde3")
+	(paper "USLetter")
+	(title_block
+		(title "I²C-PPS")
+		(date "2026-02-18")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Simple Sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WATB8UQAPbYTiAQtRtqMSSdbV9NZNpN0B9pcXyfWiIhknMYYEUEQDBwOEcAPwBFAHd+mM+4
+				V6iairz5joK8Uq9QUc0+ouGH/AkAQEAAet7DSCkmzEQ7x3jgxNf+vF5dU1B0t0FGydXS8PqHAAgI
+				wg4I002OdggBPx30e71ey73HkePU4ay3sXtPn33z3FWPvZMn/urfZznJkrvqVXPs5r/zw2li/2Z9
+				zu9n/+0G2t9o6I3NlWoCsbupAycUpUuzGpjLkmUYacAM/9m494quf3WORRn6oYdTSW5LJCuO27bF
+				NhAAX22muZIcWnDqiT/kv30VDZXkWIlCl6s0AUEBIeXi8NAsinZdj+zdNwaqO2JJLgjmoA6OevMp
+				J6jEBdEwzXuqLRYT//yuzfB1cFIWsSsXxaKMaNZ5duODlEywDLtclY9XOF6g8UClIBoSKUiSFDpw
+				RMQGqw4QBsKHeJ55AQhE3gjPYXAvikUgvEa5VoYB0zP8l8HLhfajucwOF54EeWmE4woLl5L+IARH
+				4JkXFtoEotfEQH5g/9U/BzGsRInszOyBel7DOA018UNDSZudPOyVS/RqAR211QwBQrSHlBeFCr13
+				AB/0/pj3wRoBmSIs0brj33tp2rSOT5s48DnUk9IDn5pwIQ8Mcq1D4pSHl63ogfrV4XCAI3IZ6TIn
+				JTfpLcvLZSLBTvyOvUavpjppF279E46HqJ+MNCAdg1cF|
+			)
+			(checksum "86415F3213CB9B4651533CCE06D6A73F")
+		)
+	)
+)
