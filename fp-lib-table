@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "i2c-pps-hw")(type "KiCad")(uri "${KIPRJMOD}/i2c-pps-hw.pretty")(options "")(descr ""))
+)
