@@ -1,0 +1,174 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "343a832a-d63e-4de9-bc30-ca737f82d8aa")
+	(paper "USLetter")
+	(title_block
+		(title "I²C-PPS Input Filter and Sensor")
+		(date "2026-02-21")
+		(rev "1")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 30.48 35.56)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3372032d-b90c-4a8c-98b7-1d1e606bb851")
+	)
+	(bus_entry
+		(at 30.48 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88535972-f4ea-4f40-ac9b-2f76b780f788")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d882a68-df55-4bc9-bca3-9cfb1cf29a9b")
+	)
+	(bus
+		(pts
+			(xy 27.94 40.64) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dabcc04-d6a8-43fd-8c9b-d22b5b3dfa65")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8ae769-e262-4328-964b-062be8ecccef")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0b449d-b746-4b56-a24a-6090a146e6f9")
+	)
+	(bus
+		(pts
+			(xy 27.94 38.1) (xy 27.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794f8a1b-9b7a-4af0-a3cb-77500acc3a89")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc2ec51-c36e-47e8-b409-fd8f496b0d35")
+	)
+	(bus
+		(pts
+			(xy 25.4 43.18) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfa727b-7707-4ab8-ad94-fb838b05f116")
+	)
+	(label "VINP"
+		(at 35.56 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6895ec77-2437-49ea-a5bd-385a2982d85c")
+	)
+	(label "VINN"
+		(at 35.56 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76ad6f60-f531-4f0a-a7ee-c88826308fe2")
+	)
+	(label "ACN"
+		(at 35.56 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e34f56d2-ae87-473e-945c-28b46b3095d5")
+	)
+	(label "ACP"
+		(at 35.56 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebe1e631-58c0-4866-ac47-8d6392741d88")
+	)
+	(hierarchical_label "{CSIN}"
+		(shape output)
+		(at 25.4 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39f3ae7f-a405-46bf-ae11-35ec909b5286")
+	)
+	(hierarchical_label "VINN"
+		(shape output)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba23122c-35cc-4dff-b1a2-8a401c1ab92e")
+	)
+	(hierarchical_label "VINP"
+		(shape input)
+		(at 25.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c28ca932-38b4-465d-a413-3fd7d1a92087")
+	)
+)

@@ -1,0 +1,211 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca607c32-fdaf-4ae5-a247-2f210f35dda1")
+	(paper "USLetter")
+	(title_block
+		(title "Output Filter and Sensor")
+		(date "2026-02-21")
+		(rev "1")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 33.02 38.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30840f05-2a17-4b72-93ad-118a77cab23a")
+	)
+	(bus_entry
+		(at 33.02 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf09a13-57f2-47d8-97a0-b9f1285a3e93")
+	)
+	(bus_entry
+		(at 33.02 35.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b582a5f-3ca1-4edd-b804-e094c2d1af0d")
+	)
+	(bus_entry
+		(at 33.02 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2777280-c5bc-4521-b0aa-82828c8f3699")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b541d56-65f5-4b2f-87cd-975eae4fec54")
+	)
+	(bus
+		(pts
+			(xy 35.56 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3647c5d0-16b0-4df1-8f20-8436a848f6aa")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 33.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a62f13-d1c2-40ba-a97c-c0145ff84286")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677426e6-4027-42fc-9406-b6c399319f6c")
+	)
+	(bus
+		(pts
+			(xy 35.56 40.64) (xy 35.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96246a30-b823-4bf7-a11d-b2bb8d472ab5")
+	)
+	(bus
+		(pts
+			(xy 35.56 43.18) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b102fab-0798-45b4-aa1f-a047e04bdaa5")
+	)
+	(bus
+		(pts
+			(xy 35.56 38.1) (xy 35.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bb03fd-9954-421d-8a16-c7fc0f7ea025")
+	)
+	(bus
+		(pts
+			(xy 35.56 30.48) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7158210-4419-4e1e-88fc-a7436b842c9f")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54fb7d3-ed46-4ea8-9a4b-bc743d423a5c")
+	)
+	(bus
+		(pts
+			(xy 35.56 27.94) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91a1ddf-0aba-48c3-833b-c46d6e8beab9")
+	)
+	(label "VOUTN"
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0542e6f2-cef0-414b-8209-5ddc9b739897")
+	)
+	(label "SRP"
+		(at 25.4 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ac35e38-6a85-4015-ac22-3b215e2cb54c")
+	)
+	(label "SRN"
+		(at 25.4 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0abb12c-2b65-4d7d-abc0-92c06f528d72")
+	)
+	(label "VOUTP"
+		(at 25.4 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d211b5ac-7001-4e6c-94d1-d0df11e53255")
+	)
+	(hierarchical_label "{VOUT}"
+		(shape bidirectional)
+		(at 38.1 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e80d34-3dbe-481a-bbba-a20afb24c92a")
+	)
+	(hierarchical_label "{CSOUT}"
+		(shape output)
+		(at 38.1 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c49fa889-d91f-4352-8594-12e7e78a315a")
+	)
+)
