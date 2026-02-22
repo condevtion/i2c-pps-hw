@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db08a08c-7ec0-4b5d-9e48-52c241fe8ecd")
+	(paper "USLetter")
+	(title_block
+		(title "I²C-PPS Master Switch")
+		(date "2026-02-21")
+		(rev "1")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31829956-2892-40d3-993f-cce59dd59cd0")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e505ff0-f310-479a-87d0-9ed09d76bcc9")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0282c6c-435d-4359-bfc0-3da9606ef6a4")
+	)
+	(label "VIN"
+		(at 35.56 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9266c8ea-88b9-43af-a9ce-bd46ff20e032")
+	)
+	(label "VINP"
+		(at 35.56 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd78fdfa-bc85-4cb7-9c46-22474a9a52b8")
+	)
+	(label "EN"
+		(at 35.56 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f893ced4-e742-4b10-aa7c-0e8a44214395")
+	)
+	(hierarchical_label "VINP"
+		(shape output)
+		(at 25.4 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c5fb20b-fc03-4c76-90d1-8e40e0725c9f")
+	)
+	(hierarchical_label "VIN"
+		(shape output)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a42406db-dd7a-4664-bccb-85fe96360180")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0127583-30e5-4134-ae06-97e8a8a81f6c")
+	)
+)

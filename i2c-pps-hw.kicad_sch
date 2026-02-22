@@ -10,6 +10,716 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(junction
+		(at 139.7 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3da80128-3461-4fdd-af03-0c3984d71656")
+	)
+	(junction
+		(at 88.9 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43ec6eba-ceb3-4410-b1cf-1109d352d3c1")
+	)
+	(bus
+		(pts
+			(xy 133.35 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034e03ce-d0ad-4d6c-ab0c-5163890c42f5")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecd599c-d01d-478b-9750-0dfe6ca98d33")
+	)
+	(wire
+		(pts
+			(xy 82.55 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208dc9a3-4e2a-484e-a30c-89a245f4a6c6")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 196.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e901d6f-f560-4a70-9bb6-65e733a812c4")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460a95a0-2e1f-4c8f-bb27-264a73566bad")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5491495c-c6c4-44ce-ac0d-b8e94478879d")
+	)
+	(bus
+		(pts
+			(xy 133.35 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8f083d-7691-4071-aad1-51ea1d740ef0")
+	)
+	(wire
+		(pts
+			(xy 133.35 85.09) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70738d2d-8396-4414-95ab-5da66d29c681")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c18a046-0a6b-4ba1-af92-f2681b236d03")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efdcf1d-0ebd-4208-b315-c7a66a78751d")
+	)
+	(bus
+		(pts
+			(xy 184.15 118.11) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ac791c-e2fa-42df-a6cc-57a1076de99a")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90a903d-9b53-46c8-8295-e0d0528a4237")
+	)
+	(bus
+		(pts
+			(xy 184.15 85.09) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a965c69d-42b1-48c8-9455-b7a9a0da41ed")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcce375-3cee-4c65-b4e5-c3d69fc65149")
+	)
+	(bus
+		(pts
+			(xy 133.35 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae55bf36-7350-4b7b-bf11-3f06e4ce4da1")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6578561-2b40-4dd2-86b9-b586df0c728e")
+	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b701d1ae-63fd-492d-85a2-ce8cea062ba8")
+	)
+	(bus
+		(pts
+			(xy 184.15 87.63) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60b37f6-6938-445a-9d7b-0ad1b31f386f")
+	)
+	(wire
+		(pts
+			(xy 88.9 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27f6a0c-a276-4ee1-ba6f-979f5f8482b3")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 91.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76a0605-39bc-40d1-a1a9-d771078d07a9")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1916452-6dcc-48f4-9bd1-96d3176a5243")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a96f51-a0b2-4797-ad64-d4bafba33b1e")
+	)
+	(sheet
+		(at 44.45 82.55)
+		(size 38.1 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "242a0190-1834-4b2f-bfa7-cf55bc2f9217")
+		(property "Sheetname" "Master Switch"
+			(at 44.45 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-msw_sch.kicad_sch"
+			(at 44.45 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VINP" output
+			(at 82.55 85.09 0)
+			(uuid "a5914ff1-2f4e-4e1f-9d20-cee4a673587f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 82.55 90.17 0)
+			(uuid "d9bddb5b-5982-486b-a007-5fe82cd9c978")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" output
+			(at 82.55 87.63 0)
+			(uuid "94ef74d5-bcdf-4d1a-b3d6-7829cfd2187e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 113.03)
+		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68884af0-7c5e-4b2e-8d20-43675b0f7127")
+		(property "Sheetname" "Digital IO and Indication"
+			(at 95.25 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-dio.kicad_sch"
+			(at 95.25 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 133.35 115.57 0)
+			(uuid "c228b9a3-e63c-454d-90fd-981b58cb734e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPIO}" bidirectional
+			(at 133.35 118.11 0)
+			(uuid "0ccb3ca6-cdb1-4374-92c7-c87fb5df812d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" output
+			(at 95.25 118.11 180)
+			(uuid "36e53d28-b976-492c-897f-5a963a685f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 95.25 115.57 180)
+			(uuid "647b9183-aa7b-45be-aa7b-2407f1c9045e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 82.55)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e783548-a00d-43c3-b9e7-95f97450619e")
+		(property "Sheetname" "Controller and Power Stage"
+			(at 146.05 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-cps.kicad_sch"
+			(at 146.05 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{VOUT}" bidirectional
+			(at 184.15 85.09 0)
+			(uuid "c49e05d6-c55f-464c-965c-89bd978f9945")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CSOUT}" input
+			(at 184.15 87.63 0)
+			(uuid "07ffc988-b491-454b-9b49-2ce0b8c87e23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VINN" input
+			(at 146.05 85.09 180)
+			(uuid "263fa36f-874f-4bda-9c09-5f115296fa1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{CSIN}" input
+			(at 146.05 90.17 180)
+			(uuid "46a20243-bcda-4c2b-903a-4670ad7bf35e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VINP" input
+			(at 146.05 87.63 180)
+			(uuid "6247b18b-e20d-4552-8ce3-4370054117c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 146.05 115.57 180)
+			(uuid "1bbc2cbf-6f36-4766-8303-7aec5fee7f5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO}" bidirectional
+			(at 146.05 118.11 180)
+			(uuid "cecf1b57-68fd-46e9-b0d7-640a21b60973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PROG}" input
+			(at 184.15 118.11 0)
+			(uuid "463197c7-5684-4385-a752-17152bccd2d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 113.03)
+		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1a482a8-2ecc-49e9-b6af-7f79d400d88a")
+		(property "Sheetname" "Programming"
+			(at 196.85 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-prog.kicad_sch"
+			(at 196.85 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{PROG}" passive
+			(at 196.85 118.11 180)
+			(uuid "0f70250f-c9b4-49ea-9cf6-3a67ebf78a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VINP" input
+			(at 196.85 115.57 180)
+			(uuid "c1637626-7fff-4634-9e15-ecf67c9183e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 82.55)
+		(size 38.1 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfa8dadb-54f9-4e18-b93b-6165b820488c")
+		(property "Sheetname" "Input Filter and Sensor"
+			(at 95.25 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-input.kicad_sch"
+			(at 95.25 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VINP" input
+			(at 95.25 85.09 180)
+			(uuid "c3315b51-6b9d-4fbf-83a9-7d4ae8e01cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{CSIN}" output
+			(at 133.35 90.17 0)
+			(uuid "0a259b94-5d0d-4052-a22c-269d8a893640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VINN" output
+			(at 133.35 85.09 0)
+			(uuid "7838ebc9-8c8a-430f-8bcf-3e31a231ba37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 82.55)
+		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8609c88-3d02-487c-adbe-c2328d91dfec")
+		(property "Sheetname" "Output Filter and Sensor"
+			(at 196.85 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-pps-hw-output.kicad_sch"
+			(at 196.85 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{CSOUT}" output
+			(at 196.85 87.63 180)
+			(uuid "dc1c0004-cc91-4be4-a110-736cab436f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{VOUT}" bidirectional
+			(at 196.85 85.09 180)
+			(uuid "2cf87a09-e1c2-41b4-8938-749e71777509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

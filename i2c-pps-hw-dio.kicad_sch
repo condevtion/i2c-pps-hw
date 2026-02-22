@@ -1,0 +1,351 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3c867c0d-33fd-4c49-bce8-598847bfc608")
+	(paper "USLetter")
+	(title_block
+		(title "I²C-PPS Digital I/O and Indication")
+		(date "2026-02-21")
+		(rev "1")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 30.48 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd646dc-35be-405c-a910-cd5635b49bd5")
+	)
+	(bus_entry
+		(at 30.48 35.56)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388ada76-f989-42ba-a156-a9b762189549")
+	)
+	(bus_entry
+		(at 30.48 40.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e4f829-11ca-4dff-bb12-473c9f748b16")
+	)
+	(bus_entry
+		(at 30.48 27.94)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b691fe2-4664-47c2-a7dd-97553a4c3c4d")
+	)
+	(bus_entry
+		(at 30.48 33.02)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748c74ba-58e0-4235-b645-e60bbb4ce2ed")
+	)
+	(bus_entry
+		(at 30.48 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1607a31-d80a-40f6-b73d-37ca62979777")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14eafe29-c64b-4db3-b151-175b94b476ce")
+	)
+	(wire
+		(pts
+			(xy 30.48 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f7217-c6b9-4595-a0ba-5c8135a36b42")
+	)
+	(bus
+		(pts
+			(xy 27.94 40.64) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c864ce-110e-4686-aa70-7e5f1de8b26c")
+	)
+	(bus
+		(pts
+			(xy 25.4 45.72) (xy 27.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e1e781-9419-4b08-9fb3-1c26a1df65b4")
+	)
+	(bus
+		(pts
+			(xy 27.94 27.94) (xy 27.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308bd057-a200-4bb7-8505-553f09a09f54")
+	)
+	(bus
+		(pts
+			(xy 25.4 33.02) (xy 27.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389e2242-5f37-4501-88ee-e2500f2bdc61")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720f178e-bf28-4d0f-acb8-e1bf0190cbad")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3166b7-9f69-4250-8030-a9dea1b980e2")
+	)
+	(bus
+		(pts
+			(xy 27.94 43.18) (xy 27.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afc7698-ede2-4dfb-b5ca-e9189b5ea72c")
+	)
+	(bus
+		(pts
+			(xy 27.94 35.56) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff0f49d-edf6-49c9-8faf-5633f153ae33")
+	)
+	(wire
+		(pts
+			(xy 30.48 33.02) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804568a6-1901-4e72-8c45-789f7b9c5882")
+	)
+	(bus
+		(pts
+			(xy 27.94 38.1) (xy 27.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82717e8a-eed7-4d73-8312-376950fb8475")
+	)
+	(wire
+		(pts
+			(xy 30.48 40.64) (xy 35.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83115c6f-41e7-4ea0-a45d-69ff481a68ef")
+	)
+	(bus
+		(pts
+			(xy 27.94 30.48) (xy 27.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ad2527-95dd-4af2-aa1c-678b612f3adf")
+	)
+	(wire
+		(pts
+			(xy 25.4 48.26) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8db439-c33f-4fac-8b14-bb3a150269c7")
+	)
+	(wire
+		(pts
+			(xy 25.4 50.8) (xy 35.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee2931a-9bc3-409b-9fce-06b4f79f81bf")
+	)
+	(label "STAT"
+		(at 35.56 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "031d3cfc-1333-4a71-b5d1-c800765b9df6")
+	)
+	(label "SCL"
+		(at 35.56 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0626bb4b-f82a-43e6-b7a2-f2af96614e56")
+	)
+	(label "EN"
+		(at 35.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19f47b3d-1def-4450-91fa-81f236e4262b")
+	)
+	(label "~{INT}"
+		(at 35.56 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "708baa89-b3ed-4bc9-995d-69ce4aa7508a")
+	)
+	(label "~{CE}"
+		(at 35.56 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75bbec32-6b6c-4534-8441-48060b5734e6")
+	)
+	(label "VIN"
+		(at 35.56 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "979e3524-15c9-4112-a801-a9f99b30fe71")
+	)
+	(label "~{PG}"
+		(at 35.56 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa2fd509-21f5-4db3-9206-d7ac1268761f")
+	)
+	(label "SDA"
+		(at 35.56 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff49c65c-b9d1-4c78-b96b-890df175eba1")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 25.4 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2055b474-6260-4b62-ad30-317de8da6cf1")
+	)
+	(hierarchical_label "{GPIO}"
+		(shape bidirectional)
+		(at 25.4 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50c3c1f2-80f6-4f74-9da7-7d97f83e5c6a")
+	)
+	(hierarchical_label "{I2C}"
+		(shape bidirectional)
+		(at 25.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7820771a-59e2-4120-a3d9-05c6c3d31d58")
+	)
+	(hierarchical_label "EN"
+		(shape output)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa1236fa-655d-4c07-afa0-66af46f90d49")
+	)
+)

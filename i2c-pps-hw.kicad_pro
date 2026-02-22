@@ -395,7 +395,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "kicad-embed://Simple Sheet.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -412,6 +412,30 @@
     [
       "512c4d3f-92f6-4670-bf9b-2123d46bbde3",
       "Root"
+    ],
+    [
+      "7e783548-a00d-43c3-b9e7-95f97450619e",
+      "Controller and Power Stage"
+    ],
+    [
+      "bfa8dadb-54f9-4e18-b93b-6165b820488c",
+      "Input Filter and Sensor"
+    ],
+    [
+      "d8609c88-3d02-487c-adbe-c2328d91dfec",
+      "Output Filter and Sensor"
+    ],
+    [
+      "242a0190-1834-4b2f-bfa7-cf55bc2f9217",
+      "Master Switch"
+    ],
+    [
+      "68884af0-7c5e-4b2e-8d20-43675b0f7127",
+      "Digital IO and Indication"
+    ],
+    [
+      "a1a482a8-2ecc-49e9-b6af-7f79d400d88a",
+      "Programming"
     ]
   ],
   "text_variables": {}
