@@ -28,8 +28,6 @@ For now the pages contain mainly just network and hierarchical labels.
 - **`EN`** - master switch control signal (should be high to turn the switch on and low to turn it OFF)
 - **`VINN`** - output of the input filter
 - **`VOUT`** - the output voltages bus (contains power stage output and whole device output networks, goes to the output filter)
-- **`CSIN`** - the input current sensor bus (goes to `ACN` and `ACP` pins of the controller)
-- **`CSOUT`** - the output current sensor bus (goes to `SRN` and `SRP` pins)
 - **`I2C`** - I2C bus itself (connected to `SCL` and `SDA` pins)
 - **`GPIO`** - groups digital I/O lines: interrupt, power good, status, and chip enable
 - **`PROG`** - groups the rest of analog input lines which should be connected to the programming block to set operating mode and limits for the controller
