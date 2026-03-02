@@ -1164,7 +1164,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:SiA449DJ"
+		(symbol "Transistor_FET:SiS415DNT"
 			(pin_names
 				(hide yes)
 			)
@@ -1180,7 +1180,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SiA449DJ"
+			(property "Value" "SiS415DNT"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1189,7 +1189,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1200,7 +1200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/62644/sia449dj.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1210,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"
+			(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1228,7 +1228,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Vishay*PowerPAK*SC70*Single*"
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1237,7 +1237,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SiA449DJ_0_1"
+			(symbol "SiS415DNT_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1404,7 +1404,7 @@
 					)
 				)
 			)
-			(symbol "SiA449DJ_1_1"
+			(symbol "SiS415DNT_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1415,7 +1415,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1433,7 +1433,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1451,7 +1451,45 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,7 +1609,7 @@
 		(uuid "4e1ebac5-f633-4cc0-87b2-b031a308bf1c")
 	)
 	(junction
-		(at 107.95 114.3)
+		(at 105.41 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bca9231-ac33-4f6e-8f23-e19c2d2fd18b")
@@ -1583,7 +1621,7 @@
 		(uuid "984b9abd-84f0-44bc-9b74-d81668294f7b")
 	)
 	(junction
-		(at 107.95 101.6)
+		(at 105.41 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a00a69e9-c4b3-490f-b7a0-411cb8675c46")
@@ -1595,10 +1633,20 @@
 		(uuid "a705ab3f-0764-4381-89e7-7c16dd6c20b1")
 	)
 	(junction
-		(at 133.35 101.6)
+		(at 130.81 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5201535-c5bb-45c2-9ae9-0006f96399ac")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048e23bf-e994-4952-b2b3-3a701883dd58")
 	)
 	(wire
 		(pts
@@ -1612,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 133.35 101.6)
+			(xy 121.92 90.17) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 107.95 114.3)
+			(xy 105.41 111.76) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 133.35 114.3)
+			(xy 130.81 111.76) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 107.95 104.14)
+			(xy 105.41 101.6) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 107.95 101.6)
+			(xy 100.33 101.6) (xy 105.41 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 99.06 76.2)
+			(xy 85.09 76.2) (xy 96.52 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1722,13 +1770,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 203.2 101.6)
+			(xy 195.58 101.6) (xy 207.01 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39e5fb11-8480-436a-92fc-2dbd2d7d2d02")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bf3ac9-0793-4f20-9971-47d4209cf50b")
 	)
 	(wire
 		(pts
@@ -1742,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 99.06 78.74)
+			(xy 85.09 78.74) (xy 96.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 104.14) (xy 133.35 101.6)
+			(xy 130.81 104.14) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 90.17 114.3)
+			(xy 105.41 114.3) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 121.92) (xy 133.35 124.46)
+			(xy 130.81 121.92) (xy 130.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1840,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 144.78 101.6)
+			(xy 118.11 109.22) (xy 118.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ceb571-b305-4232-b7af-c55587616d60")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 107.95 115.57)
+			(xy 105.41 114.3) (xy 105.41 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1900,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 81.28) (xy 99.06 81.28)
+			(xy 123.19 101.6) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7c411c-81cb-4418-8597-2fa75d44acb4")
+	)
+	(wire
+		(pts
+			(xy 85.09 81.28) (xy 96.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 116.84 101.6)
+			(xy 105.41 90.17) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 90.17 114.3)
+			(xy 87.63 104.14) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 95.25 101.6)
+			(xy 86.36 101.6) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +1970,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 90.17 104.14)
+			(xy 105.41 90.17) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7340070-beae-493e-84c6-a4ebb15ea341")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1910,6 +1998,16 @@
 		)
 		(uuid "fd629592-93b0-42ea-8307-6f17e082e7be")
 	)
+	(wire
+		(pts
+			(xy 130.81 90.17) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda13fb2-172a-4655-abac-f42958ecac02")
+	)
 	(label "+5V_Prot"
 		(at 165.1 101.6 0)
 		(effects
@@ -1921,7 +2019,7 @@
 		(uuid "41b66cd9-f3a3-4c0d-b851-6be60c5f86d8")
 	)
 	(label "+5V_Prot"
-		(at 144.78 101.6 180)
+		(at 142.24 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +2029,7 @@
 		(uuid "72036440-a591-4770-98ab-0e96c0e3a62a")
 	)
 	(label "+5V_Run"
-		(at 203.2 101.6 180)
+		(at 207.01 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +2039,7 @@
 		(uuid "862e94ad-153f-4e34-bf26-6fba02ea4609")
 	)
 	(label "+5V_Prot"
-		(at 99.06 76.2 180)
+		(at 96.52 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +2059,7 @@
 		(uuid "d9bb27ed-e536-4520-b7d2-7cda8a30ba36")
 	)
 	(label "+5V_Run"
-		(at 99.06 78.74 180)
+		(at 96.52 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,7 +2069,7 @@
 		(uuid "dd78fdfa-bc85-4cb7-9c46-22474a9a52b8")
 	)
 	(label "EN"
-		(at 99.06 81.28 180)
+		(at 96.52 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1982,7 +2080,7 @@
 	)
 	(hierarchical_label "+5V_Run"
 		(shape output)
-		(at 87.63 78.74 180)
+		(at 85.09 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,7 +2091,7 @@
 	)
 	(hierarchical_label "+5V_Prot"
 		(shape output)
-		(at 87.63 76.2 180)
+		(at 85.09 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,7 +2102,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 87.63 81.28 180)
+		(at 85.09 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2015,7 +2113,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 83.82 101.6 0)
+		(at 81.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2023,7 +2121,7 @@
 		(dnp no)
 		(uuid "09c056b7-6977-4acd-a450-65ef3316e26e")
 		(property "Reference" "J1"
-			(at 83.82 96.52 0)
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2130,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2157,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 83.82 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2182,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 107.95 0)
+		(at 130.81 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2093,7 +2191,7 @@
 		(fields_autoplaced yes)
 		(uuid "210b9169-6301-4d98-85fc-a05d7c6ce642")
 		(property "Reference" "R36"
-			(at 135.89 106.6799 0)
+			(at 133.35 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2200,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 135.89 109.2199 0)
+			(at 133.35 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2209,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 131.572 107.95 90)
+			(at 129.032 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2227,7 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
-			(at 133.35 107.95 0)
+			(at 130.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 115.57 0)
+		(at 105.41 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2163,7 +2261,7 @@
 		(fields_autoplaced yes)
 		(uuid "2498a481-bd46-4639-9449-5620bb15a013")
 		(property "Reference" "#PWR025"
-			(at 107.95 121.92 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 120.65 0)
+			(at 105.41 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 115.57 0)
+			(at 105.41 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 115.57 0)
+			(at 105.41 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 115.57 0)
+			(at 105.41 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 99.06 101.6 90)
+		(at 96.52 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2229,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "42fc4d9c-f5d8-4379-896c-f1dd3ad96d14")
 		(property "Reference" "F1"
-			(at 99.06 95.25 90)
+			(at 96.52 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2335,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 99.06 97.79 90)
+			(at 96.52 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 100.33 0)
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 101.6 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2362,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 99.06 101.6 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,24 +2521,24 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 120.65 101.6 180)
+		(at 118.11 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4dc2ed04-3fb0-4387-ac1b-74751e449e2f")
 		(property "Reference" "D4"
-			(at 120.9675 95.25 0)
+			(at 118.4275 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "7A, 12V"
-			(at 120.9675 97.79 0)
+		(property "Value" "15A, 12V"
+			(at 118.4275 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 101.6 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 101.6 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2564,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 120.65 101.6 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 124.46 0)
+		(at 130.81 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2500,7 +2598,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f38bafc-633d-4d96-b8e8-14a592ca30f4")
 		(property "Reference" "#PWR037"
-			(at 133.35 130.81 0)
+			(at 130.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 129.54 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 124.46 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,34 +2721,33 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ6.5CA")
-		(at 107.95 107.95 90)
+		(at 105.41 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9997a773-d850-46a5-941b-432c34c81f1d")
 		(property "Reference" "D3"
-			(at 110.49 106.6799 90)
+			(at 102.87 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ6.5CA"
-			(at 110.49 109.2199 90)
+			(at 102.87 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 113.03 107.95 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2756,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 107.95 107.95 0)
+			(at 105.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2765,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 6.5Vr, SMA(DO-214AC)"
-			(at 107.95 107.95 0)
+			(at 105.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,6 +2877,85 @@
 			(project ""
 				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/242a0190-1834-4b2f-bfa7-cf55bc2f9217"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:SiS415DNT")
+		(at 118.11 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3217c5e-fdb5-4fa9-9fb4-dbdd3bee09ec")
+		(property "Reference" "Q8"
+			(at 118.11 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIS413DN"
+			(at 118.11 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 120.015 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "21c16af7-0e35-41c6-b769-adde08d2b0f8")
+		)
+		(pin "3"
+			(uuid "26cba774-15d6-4f0b-86ba-289d4908e967")
+		)
+		(pin "1"
+			(uuid "eb653875-8c96-486d-a2a1-b97754d09b77")
+		)
+		(pin "5"
+			(uuid "b57fcdc7-671b-402b-b7f2-987a056697c6")
+		)
+		(pin "2"
+			(uuid "f04382fb-6824-46fe-a0a9-d1244d72fbd7")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/242a0190-1834-4b2f-bfa7-cf55bc2f9217"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -2927,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 133.35 118.11 90)
+		(at 130.81 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +3112,7 @@
 		(fields_autoplaced yes)
 		(uuid "d61b989e-67e4-4bd1-a215-2003e2351fcd")
 		(property "Reference" "D10"
-			(at 137.16 118.4274 90)
+			(at 134.62 118.4274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +3121,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 137.16 120.9674 90)
+			(at 134.62 120.9674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 133.35 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3148,7 @@
 			)
 		)
 		(property "Description" "6 mcd, 2V"
-			(at 133.35 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3157,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:SiA449DJ")
+		(lib_id "Transistor_FET:SiS415DNT")
 		(at 190.5 104.14 270)
 		(mirror x)
 		(unit 1)
@@ -3022,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Value" "SiA449DJ"
+		(property "Value" "SIS413DN"
 			(at 190.5 97.79 90)
 			(effects
 				(font
@@ -3030,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 188.595 99.06 0)
 			(effects
 				(font
@@ -3041,7 +3217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/62644/sia449dj.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -3051,7 +3227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"
+		(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
 			(at 190.5 104.14 0)
 			(effects
 				(font
@@ -3068,6 +3244,12 @@
 		)
 		(pin "1"
 			(uuid "e66eb215-4cf0-4814-957f-5964bda744b3")
+		)
+		(pin "5"
+			(uuid "dfa64a4f-79ed-490a-bba2-a9d540d6d42a")
+		)
+		(pin "2"
+			(uuid "667587eb-a456-4f3d-97c3-64fe221ce863")
 		)
 		(instances
 			(project ""
