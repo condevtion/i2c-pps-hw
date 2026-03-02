@@ -2262,7 +2262,7 @@
 	)
 	(text "Kelvin connection to R24"
 		(exclude_from_sim no)
-		(at 233.68 88.9 0)
+		(at 238.76 88.9 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2273,7 +2273,7 @@
 	)
 	(text "Kelvin connection to R23"
 		(exclude_from_sim no)
-		(at 233.68 139.7 0)
+		(at 238.76 139.7 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2806,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 86.36) (xy 207.01 86.36)
+			(xy 238.76 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 67.31 39.37)
+			(xy 57.15 39.37) (xy 71.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 207.01 137.16)
+			(xy 238.76 137.16) (xy 207.01 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 36.83) (xy 57.15 36.83)
+			(xy 71.12 36.83) (xy 57.15 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 92.71) (xy 224.79 92.71)
+			(xy 238.76 92.71) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +3816,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 143.51) (xy 224.79 143.51)
+			(xy 238.76 143.51) (xy 224.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4084,8 +4084,8 @@
 		)
 		(uuid "124197be-bb13-4dfa-a3ae-a756b9fa6548")
 	)
-	(label "VINN"
-		(at 67.31 36.83 180)
+	(label "+5V_Filtered"
+		(at 71.12 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4155,7 +4155,7 @@
 		(uuid "3152ebbf-f56e-429d-bafa-80167299ad08")
 	)
 	(label "+5V_Run"
-		(at 233.68 86.36 180)
+		(at 238.76 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4364,8 +4364,8 @@
 		)
 		(uuid "918fb70c-cb25-4d85-897c-43b0cebc5d71")
 	)
-	(label "VINN"
-		(at 233.68 92.71 180)
+	(label "+5V_Filtered"
+		(at 238.76 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,7 +4455,7 @@
 		(uuid "cb5e4d5c-8586-437e-b70a-b0f316ac0e27")
 	)
 	(label "+5V_Run"
-		(at 67.31 39.37 180)
+		(at 71.12 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 		(uuid "de25816a-68e5-4475-b348-d7dbe8181c9d")
 	)
 	(label "VOUTN"
-		(at 233.68 143.51 180)
+		(at 238.76 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4514,7 +4514,7 @@
 		)
 		(uuid "ea423023-3c60-4a67-9e8d-61d5c7b76884")
 	)
-	(label "VINN"
+	(label "+5V_Filtered"
 		(at 96.52 31.75 0)
 		(effects
 			(font
@@ -4525,7 +4525,7 @@
 		(uuid "ed6cd8cd-3556-45ed-b257-d6982a15007a")
 	)
 	(label "VOUTP"
-		(at 233.68 137.16 180)
+		(at 238.76 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4565,7 +4565,7 @@
 		)
 		(uuid "4c69ccc5-5638-412c-81aa-b64ca261c5c9")
 	)
-	(hierarchical_label "VINN"
+	(hierarchical_label "+5V_Filtered"
 		(shape input)
 		(at 57.15 36.83 180)
 		(effects

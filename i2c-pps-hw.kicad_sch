@@ -423,16 +423,6 @@
 				(justify right)
 			)
 		)
-		(pin "VINN" input
-			(at 146.05 85.09 180)
-			(uuid "263fa36f-874f-4bda-9c09-5f115296fa1b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{I2C}" bidirectional
 			(at 146.05 115.57 180)
 			(uuid "1bbc2cbf-6f36-4766-8303-7aec5fee7f5c")
@@ -466,6 +456,16 @@
 		(pin "+5V_Run" input
 			(at 146.05 87.63 180)
 			(uuid "c7bda9a4-f773-42ab-9f1d-0e14f1f48e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_Filtered" input
+			(at 146.05 85.09 180)
+			(uuid "535ff52c-4f90-4680-abbc-02fc171ada09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,16 +579,6 @@
 				(hide yes)
 			)
 		)
-		(pin "VINN" output
-			(at 133.35 85.09 0)
-			(uuid "7838ebc9-8c8a-430f-8bcf-3e31a231ba37")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+5V_Run" input
 			(at 95.25 85.09 180)
 			(uuid "605e9e1b-43ff-4728-8606-45c70412ff63")
@@ -597,6 +587,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+5V_Filtered" output
+			(at 133.35 85.09 0)
+			(uuid "93e6416a-c93b-4343-9f12-d87ca0608489")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
