@@ -2669,7 +2669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf4de0d-46bc-4bb6-aa47-a7e5fddea2c7")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 111.76 80.0099 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 		(instances
 			(project ""
 				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/bfa8dadb-54f9-4e18-b93b-6165b820488c"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
