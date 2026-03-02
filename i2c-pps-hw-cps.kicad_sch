@@ -585,351 +585,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SiR880BDP_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SiR880BDP"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/63031/sir880bdp.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay Siliconix"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS NFET Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PowerPAK*SO*Single*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SiR880BDP_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SiR880BDP_1_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "i2c-pps-hw:BQ25758S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1743,7 +1398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
+			(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 5.3mOhm Ron, 19.5 nC Qg(typ), PowerPAK-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2560,6 +2215,16 @@
 			(type default)
 		)
 		(uuid "04f69fb6-9e2b-414e-a2b0-f15e4ec5401e")
+	)
+	(wire
+		(pts
+			(xy 38.1 190.5) (xy 38.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0518d63d-86a3-4ec1-9e4c-b9f290ff7e57")
 	)
 	(wire
 		(pts
@@ -3963,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 190.5) (xy 26.67 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f454ad61-da92-4233-aded-565dd1a74ba6")
+	)
+	(wire
+		(pts
 			(xy 63.5 95.25) (xy 63.5 101.6)
 		)
 		(stroke
@@ -4161,6 +3836,16 @@
 		)
 		(uuid "3802fe62-e896-4fd2-b1a2-ed7c0b740c11")
 	)
+	(label "BTST1"
+		(at 26.67 190.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ecc9bc4-520b-4378-8c71-53c65dcf1da2")
+	)
 	(label "ACP"
 		(at 199.39 107.95 0)
 		(effects
@@ -4320,6 +4005,16 @@
 			(justify left bottom)
 		)
 		(uuid "7471c294-bd45-4631-838a-5e4a36752835")
+	)
+	(label "BTST2"
+		(at 38.1 190.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79428b14-cdb3-435c-b0e0-9e4043fa61ad")
 	)
 	(label "VOUT_Filtered"
 		(at 171.45 139.7 180)
@@ -5990,7 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
+		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 5.3mOhm Ron, 19.5 nC Qg(typ), PowerPAK-8"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -6735,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
+		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 5.3mOhm Ron, 19.5 nC Qg(typ), PowerPAK-8"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -7287,7 +6982,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SiR880BDP_1")
 		(lib_id "i2c-pps-hw:SiR880BDP")
 		(at 119.38 67.31 0)
 		(unit 1)
@@ -7335,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
+		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 5.3mOhm Ron, 19.5 nC Qg(typ), PowerPAK-8"
 			(at 119.38 67.31 0)
 			(effects
 				(font
@@ -7597,6 +7291,72 @@
 			(project "i2c-pps-hw"
 				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/7e783548-a00d-43c3-b9e7-95f97450619e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 196.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7497dc3-c803-42e8-8be3-2d80a664742a")
+		(property "Reference" "#FLG03"
+			(at 26.67 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d663bca9-2cee-4034-8451-4c42f155b591")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/7e783548-a00d-43c3-b9e7-95f97450619e"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8150,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 6.2mOhm Ron, 19.5nC Qg(typ), PowerPAK-8"
+		(property "Description" "70.6A Id, 80V Vds N-Channel MOSFET, 5.3mOhm Ron, 19.5 nC Qg(typ), PowerPAK-8"
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -8187,6 +7947,72 @@
 			(project "i2c-pps-hw"
 				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/7e783548-a00d-43c3-b9e7-95f97450619e"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 196.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feeccfa3-cc9d-4470-8f4f-bba24262a585")
+		(property "Reference" "#FLG04"
+			(at 38.1 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1e988d6-a810-49ad-8d70-da52cf687316")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/7e783548-a00d-43c3-b9e7-95f97450619e"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

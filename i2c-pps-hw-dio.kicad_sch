@@ -1384,7 +1384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2210.pdf"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -1394,6 +1394,15 @@
 				)
 			)
 			(property "Description" "300mA, LDO, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1479,25 +1488,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3161,7 +3151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2210.pdf"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -3171,6 +3161,15 @@
 			)
 		)
 		(property "Description" "300mA, LDO, SOT-23"
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 189.23 99.06 0)
 			(effects
 				(font
@@ -3190,9 +3189,6 @@
 		)
 		(pin "2"
 			(uuid "8ecedce8-8d69-4226-b4e0-ed867f9249ca")
-		)
-		(pin "4"
-			(uuid "fc3dd2b8-a66c-4a11-a9f5-263390100a15")
 		)
 		(pin "4"
 			(uuid "246d9332-068d-4f58-832b-e6113e432555")
