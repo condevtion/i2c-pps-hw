@@ -257,16 +257,6 @@
 				(hide yes)
 			)
 		)
-		(pin "VINP" output
-			(at 82.55 85.09 0)
-			(uuid "a5914ff1-2f4e-4e1f-9d20-cee4a673587f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EN" input
 			(at 82.55 90.17 0)
 			(uuid "d9bddb5b-5982-486b-a007-5fe82cd9c978")
@@ -280,6 +270,16 @@
 		(pin "+5V_Prot" output
 			(at 82.55 87.63 0)
 			(uuid "2ff64e4e-a83b-41c7-8dde-8172278c3b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_Run" output
+			(at 82.55 85.09 0)
+			(uuid "98266e7f-cd70-4733-b81d-5aefcccb0ca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,16 +433,6 @@
 				(justify left)
 			)
 		)
-		(pin "VINP" input
-			(at 146.05 87.63 180)
-			(uuid "6247b18b-e20d-4552-8ce3-4370054117c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{I2C}" bidirectional
 			(at 146.05 115.57 180)
 			(uuid "1bbc2cbf-6f36-4766-8303-7aec5fee7f5c")
@@ -471,6 +461,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+5V_Run" input
+			(at 146.05 87.63 180)
+			(uuid "c7bda9a4-f773-42ab-9f1d-0e14f1f48e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -526,9 +526,9 @@
 				(justify left)
 			)
 		)
-		(pin "VINP" input
+		(pin "+5V_Run" input
 			(at 196.85 115.57 180)
-			(uuid "c1637626-7fff-4634-9e15-ecf67c9183e2")
+			(uuid "3b02e6aa-2135-4195-b57c-ffb5bc48662e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,16 +579,6 @@
 				(hide yes)
 			)
 		)
-		(pin "VINP" input
-			(at 95.25 85.09 180)
-			(uuid "c3315b51-6b9d-4fbf-83a9-7d4ae8e01cb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VINN" output
 			(at 133.35 85.09 0)
 			(uuid "7838ebc9-8c8a-430f-8bcf-3e31a231ba37")
@@ -597,6 +587,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+5V_Run" input
+			(at 95.25 85.09 180)
+			(uuid "605e9e1b-43ff-4728-8606-45c70412ff63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

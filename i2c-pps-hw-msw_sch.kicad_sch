@@ -1655,7 +1655,7 @@
 		)
 		(uuid "72036440-a591-4770-98ab-0e96c0e3a62a")
 	)
-	(label "VINP"
+	(label "+5V_Run"
 		(at 196.85 101.6 180)
 		(effects
 			(font
@@ -1685,7 +1685,7 @@
 		)
 		(uuid "d9bb27ed-e536-4520-b7d2-7cda8a30ba36")
 	)
-	(label "VINP"
+	(label "+5V_Run"
 		(at 104.14 78.74 180)
 		(effects
 			(font
@@ -1705,7 +1705,7 @@
 		)
 		(uuid "f893ced4-e742-4b10-aa7c-0e8a44214395")
 	)
-	(hierarchical_label "VINP"
+	(hierarchical_label "+5V_Run"
 		(shape output)
 		(at 92.71 78.74 180)
 		(effects

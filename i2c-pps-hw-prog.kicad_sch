@@ -517,7 +517,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 95.25) (xy 214.63 95.25)
+			(xy 203.2 95.25) (xy 214.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +607,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 119.38) (xy 214.63 119.38)
+			(xy 203.2 119.38) (xy 214.63 119.38)
 		)
 		(stroke
 			(width 0)
@@ -737,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 214.63 106.68)
+			(xy 203.2 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -975,8 +975,8 @@
 		)
 		(uuid "365cc865-aacc-4b40-9ac7-0d186543f151")
 	)
-	(label "VINP"
-		(at 205.74 95.25 0)
+	(label "+5V_Run"
+		(at 203.2 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 		(uuid "84d00be0-1e7a-4950-9a37-a99579658ca0")
 	)
 	(label "ACOV"
-		(at 205.74 119.38 0)
+		(at 203.2 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 		)
 		(uuid "8dcebd73-14b8-4078-a410-8fefa70e38e7")
 	)
-	(label "VINP"
+	(label "+5V_Run"
 		(at 74.93 58.42 180)
 		(effects
 			(font
@@ -1056,7 +1056,7 @@
 		(uuid "ae93f620-15ca-4f5d-b542-43082eaf3ec6")
 	)
 	(label "ACUV"
-		(at 205.74 106.68 0)
+		(at 203.2 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,7 +1075,7 @@
 		)
 		(uuid "e8676aff-f628-4d6b-a023-938032a9e29b")
 	)
-	(hierarchical_label "VINP"
+	(hierarchical_label "+5V_Run"
 		(shape input)
 		(at 59.69 58.42 180)
 		(effects

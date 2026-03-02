@@ -24,7 +24,7 @@ For now the pages contain mainly just network and hierarchical labels.
 
 ## Major Networks and Busses
 - **`+5V_Prot`** - protected positive input voltage. The master switch page contains an input connector and protection circuit (fuse, TVS diode, polarity protection) after which the network starts. It is used as well to power the digital I/O and indication block
-- **`VINP`** - positive input voltage after the master switch itself (goes to the input filter)
+- **`+5V_Run`** - positive input voltage after the master switch itself (goes to the input filter and powers the controller). It is live while **`EN`** pin high
 - **`EN`** - master switch control signal (should be high to turn the switch on and low to turn it OFF)
 - **`VINN`** - output of the input filter
 - **`VOUT`** - the output voltages bus (contains power stage output and whole device output networks, goes to the output filter)
