@@ -853,7 +853,7 @@
 		(uuid "fd267ec8-5ab1-4ab1-a3c8-b086126004e1")
 	)
 	(bus_entry
-		(at 90.17 68.58)
+		(at 80.01 68.58)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -862,7 +862,7 @@
 		(uuid "3cf09a13-57f2-47d8-97a0-b9f1285a3e93")
 	)
 	(bus_entry
-		(at 90.17 71.12)
+		(at 80.01 71.12)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -892,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 68.58) (xy 90.17 68.58)
+			(xy 95.25 68.58) (xy 80.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 120.65 71.12)
+			(xy 102.87 71.12) (xy 120.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +972,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 76.2) (xy 85.09 76.2)
+			(xy 77.47 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1222,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 73.66) (xy 87.63 76.2)
+			(xy 77.47 73.66) (xy 77.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 119.38) (xy 212.09 119.38)
+			(xy 228.6 119.38) (xy 212.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 119.38) (xy 66.04 119.38)
+			(xy 49.53 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 90.17 71.12)
+			(xy 95.25 71.12) (xy 80.01 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1462,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 71.12) (xy 87.63 73.66)
+			(xy 77.47 71.12) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1490,8 +1490,8 @@
 		)
 		(uuid "ff310ae5-4418-4b25-902c-f418f96d1d3a")
 	)
-	(label "VOUTN"
-		(at 97.79 68.58 180)
+	(label "VOUT_Filtered"
+		(at 95.25 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1500,8 +1500,8 @@
 		)
 		(uuid "0542e6f2-cef0-414b-8209-5ddc9b739897")
 	)
-	(label "VOUTN"
-		(at 222.25 119.38 180)
+	(label "VOUT_Filtered"
+		(at 228.6 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1510,8 +1510,8 @@
 		)
 		(uuid "0d99d272-f157-4f16-af4b-fbddadcab183")
 	)
-	(label "VOUTP"
-		(at 110.49 71.12 0)
+	(label "VOUT_Switcher"
+		(at 102.87 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1520,8 +1520,8 @@
 		)
 		(uuid "1b1d06b2-ff26-4d03-be7c-e724b3616e2c")
 	)
-	(label "VOUTN"
-		(at 172.72 71.12 0)
+	(label "VOUT_Filtered"
+		(at 166.37 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,8 +1530,8 @@
 		)
 		(uuid "5d60a10a-e764-4199-8e10-a416e77a63ce")
 	)
-	(label "VOUTP"
-		(at 97.79 71.12 180)
+	(label "VOUT_Switcher"
+		(at 95.25 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1540,8 +1540,8 @@
 		)
 		(uuid "d211b5ac-7001-4e6c-94d1-d0df11e53255")
 	)
-	(label "VOUTP"
-		(at 55.88 119.38 0)
+	(label "VOUT_Switcher"
+		(at 49.53 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 	)
 	(hierarchical_label "{VOUT}"
 		(shape bidirectional)
-		(at 85.09 76.2 180)
+		(at 74.93 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
