@@ -2245,9 +2245,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "CSIN"
-		(members "CSINN" "CSINP")
-	)
 	(bus_alias "GPIO"
 		(members "~{INT}" "STAT" "~{PG}" "~{CE}")
 	)
