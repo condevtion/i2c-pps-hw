@@ -277,9 +277,9 @@
 				(justify right)
 			)
 		)
-		(pin "VIN" output
+		(pin "+5V_Prot" output
 			(at 82.55 87.63 0)
-			(uuid "94ef74d5-bcdf-4d1a-b3d6-7829cfd2187e")
+			(uuid "2ff64e4e-a83b-41c7-8dde-8172278c3b70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,9 +360,9 @@
 				(justify left)
 			)
 		)
-		(pin "VIN" input
+		(pin "+5V_Prot" input
 			(at 95.25 115.57 180)
-			(uuid "647b9183-aa7b-45be-aa7b-2407f1c9045e")
+			(uuid "c2e2b1d7-65b2-4372-970c-f9cef1c6be9f")
 			(effects
 				(font
 					(size 1.27 1.27)

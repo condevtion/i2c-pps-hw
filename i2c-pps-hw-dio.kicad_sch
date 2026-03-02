@@ -2534,7 +2534,7 @@
 		)
 		(uuid "7759c558-6b4a-4425-845d-2479885f7a5e")
 	)
-	(label "VIN"
+	(label "+5V_Prot"
 		(at 73.66 93.98 180)
 		(effects
 			(font
@@ -2574,7 +2574,7 @@
 		)
 		(uuid "8fbeef09-6fec-467c-a70b-fd0ee5ea21bf")
 	)
-	(label "VIN"
+	(label "+5V_Prot"
 		(at 73.66 73.66 180)
 		(effects
 			(font
@@ -2614,7 +2614,7 @@
 		)
 		(uuid "bc8c438e-3fbb-47fd-870d-6c25cc1384d5")
 	)
-	(label "VIN"
+	(label "+5V_Prot"
 		(at 163.83 96.52 0)
 		(effects
 			(font
@@ -2694,7 +2694,7 @@
 		)
 		(uuid "ff49c65c-b9d1-4c78-b96b-890df175eba1")
 	)
-	(hierarchical_label "VIN"
+	(hierarchical_label "+5V_Prot"
 		(shape input)
 		(at 63.5 73.66 180)
 		(effects

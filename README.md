@@ -23,7 +23,7 @@ The device is complex enough for the schematics to be split into several pages, 
 For now the pages contain mainly just network and hierarchical labels.
 
 ## Major Networks and Busses
-- **`VIN`** - positive input voltage. The master switch page should contain an input connector and protection circuit (fuse, TVS diode) after which the network starts. As well is used to power the digital I/O and indication block
+- **`+5V_Prot`** - protected positive input voltage. The master switch page contains an input connector and protection circuit (fuse, TVS diode, polarity protection) after which the network starts. It is used as well to power the digital I/O and indication block
 - **`VINP`** - positive input voltage after the master switch itself (goes to the input filter)
 - **`EN`** - master switch control signal (should be high to turn the switch on and low to turn it OFF)
 - **`VINN`** - output of the input filter
