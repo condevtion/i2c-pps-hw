@@ -247,7 +247,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "i2c-pps-hw-msw_sch.kicad_sch"
+		(property "Sheetfile" "i2c-pps-hw-msw.kicad_sch"
 			(at 44.45 93.2946 0)
 			(effects
 				(font

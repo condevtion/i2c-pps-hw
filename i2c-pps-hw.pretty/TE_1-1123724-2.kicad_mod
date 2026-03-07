@@ -1,0 +1,277 @@
+(footprint "TE_1-1123724-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Connector Header Through Hole 3 position 0.156\" (3.96mm)")
+	(tags "connector TE header vertical")
+	(property "Reference" "REF**"
+		(at 3.96 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "2c57099e-6d00-40bc-a498-49b9308132e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_1-1123724-2"
+		(at 3.96 6 0)
+		(layer "F.Fab")
+		(uuid "3d75d9ea-bba6-4089-9ed2-312449a25aeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1123724&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1-1123724-2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "563686b8-c5ee-4039-a61a-cc16cf887109")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Connector Header Through Hole 3 position 0.156\" (3.96mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9782d51-596e-4348-9ff4-ec928f703308")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.86 -0.3)
+		(end -2.26 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b9e48b6-2cd1-4ae6-bb6b-73e48823403a")
+	)
+	(fp_line
+		(start -2.86 0.3)
+		(end -2.86 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6f9f3ac-158c-43ac-b58c-ba17e58f6c57")
+	)
+	(fp_line
+		(start -2.26 0)
+		(end -2.86 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc1a313d-a9cc-4928-96e7-e95bd51d4eb3")
+	)
+	(fp_line
+		(start -2.06 -2.11)
+		(end -0.86 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "545e5684-544c-4c43-8544-80102ec3cbf6")
+	)
+	(fp_line
+		(start -2.06 4.91)
+		(end -2.06 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94585590-bbf3-43b4-9730-835bb6740863")
+	)
+	(fp_line
+		(start -0.86 -3.81)
+		(end 8.78 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb239b8d-b1c1-495a-ab93-a5eda2f8c216")
+	)
+	(fp_line
+		(start -0.86 -2.11)
+		(end -0.86 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f40fda4-3a15-4a13-af91-35bdcd5a5a74")
+	)
+	(fp_line
+		(start 8.78 -3.81)
+		(end 8.78 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06ad1efc-b57b-449a-abda-8ae9fa03074c")
+	)
+	(fp_line
+		(start 8.78 -2.11)
+		(end 9.98 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94e0a8dd-fd15-42ad-b694-506f07f50788")
+	)
+	(fp_line
+		(start 9.98 -2.11)
+		(end 9.98 4.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e1a197-a655-4fbf-9d11-95a769487801")
+	)
+	(fp_line
+		(start 9.98 4.91)
+		(end -2.06 4.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a35a449-eeaa-4cd8-8f30-6a1e1668c242")
+	)
+	(fp_rect
+		(start -2.45 -4.2)
+		(end 10.37 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "46417e7f-b589-4b6b-b9b4-0be26261385d")
+	)
+	(fp_line
+		(start -1.95 -1)
+		(end -0.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51373f89-905e-48c9-be47-2f54e83bc0dc")
+	)
+	(fp_line
+		(start -1.95 1)
+		(end -0.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "816b42c5-5bff-4ca4-9e42-4009c62fd110")
+	)
+	(fp_line
+		(start -0.75 -3.7)
+		(end 8.67 -3.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23e55953-6c2a-4d51-a286-877daaf1b37f")
+	)
+	(fp_line
+		(start -0.75 -2)
+		(end -0.75 -3.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c697ee05-63d6-4d24-81fd-258451486ef1")
+	)
+	(fp_line
+		(start 8.67 -3.7)
+		(end 8.67 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4141a05-6725-466b-9eea-9b2d30ed7bb6")
+	)
+	(fp_rect
+		(start -1.95 -2)
+		(end 9.87 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc1d5e06-125a-4a0b-8918-03243444ca52")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.96 4.1 0)
+		(layer "F.Fab")
+		(uuid "490c15da-faeb-4c1c-9eb6-e73e311e797b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.092593)
+		(uuid "4bbe524c-b1be-411c-b738-6297f61cc766")
+	)
+	(pad "2" thru_hole circle
+		(at 7.92 0)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "176ee5a2-9c08-4303-9ad6-cc93c891b2da")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B3P-VH-B_1x03_P3.96mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

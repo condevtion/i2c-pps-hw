@@ -2846,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g14.pdf"
 			(at 110.49 142.24 0)
 			(effects
 				(font
@@ -2866,6 +2866,24 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS"
+			(at 110.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN74AHC1G14DBVR"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -2934,7 +2952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6397/AutoMLCC-2952695-DS.pdf"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -2943,7 +2961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ceramic"
+		(property "Description" "±10%, ceramic, X7R, AEC-Q200 Grade 1"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -2952,13 +2970,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "08051C105K4Z2A"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3013,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -3023,6 +3059,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-0710KL"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -3083,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -3093,6 +3147,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-071KL"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -3178,6 +3250,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "AP2210N-3.3TRG1"
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "baee578c-f056-40e6-83c5-114419dd86a6")
 		)
@@ -3239,7 +3320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -3249,6 +3330,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-0710KL"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -3309,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -3319,6 +3418,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-071KL"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -3379,7 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
 			(at 91.44 152.4 0)
 			(effects
 				(font
@@ -3399,6 +3516,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc"
+			(at 91.44 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT"
+			(at 91.44 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "i2c-pps-hw:SolderJumper-2_P0.65mm_Bridged_RoundedPad0.5x0.75mm"
 			(at 102.87 95.25 0)
 			(effects
 				(font
@@ -3458,7 +3593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 102.87 95.25 0)
 			(effects
 				(font
@@ -3528,7 +3663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -3548,6 +3683,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc"
+			(at 137.16 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT"
+			(at 137.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -3617,6 +3770,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-071KL"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -3668,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "i2c-pps-hw:SolderJumper-2_P0.65mm_Bridged_RoundedPad0.5x0.75mm"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -3677,7 +3848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -3813,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -3823,6 +3994,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-0710KL"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -3948,7 +4137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206003.pdf"
 			(at 200.66 107.95 0)
 			(effects
 				(font
@@ -3957,7 +4146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ceramic"
+		(property "Description" "±10%, ceramic, X7R"
 			(at 200.66 107.95 0)
 			(effects
 				(font
@@ -3973,6 +4162,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "885012206003"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4027,7 +4234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -4047,6 +4254,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc"
+			(at 148.59 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT"
+			(at 148.59 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -4248,6 +4473,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-071KL"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -4365,7 +4608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -4374,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -4383,7 +4626,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
+		(property "Description" "Header Connector, 0.100\" (2.54mm), Through Hole"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PPPC052LFBN-RC"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -4534,7 +4795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/525/LTST-C193KRKT-2A.pdf"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -4543,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6 mcd, 2V"
+		(property "Description" "6 mcd, 1.9V"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -4554,6 +4815,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc"
+			(at 125.73 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C193KRKT-2A"
+			(at 125.73 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 215.5952 106.68 0)
 			(effects
 				(font
@@ -4678,7 +4957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71A225KE15-01.pdf"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -4687,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ceramic"
+		(property "Description" "±10%, ceramic, X7R"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -4703,6 +4982,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188R71A225KE15J"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

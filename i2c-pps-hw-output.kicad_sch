@@ -2281,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ32DC72A475KE01%23&displayChangeClass=productDetailPrint"
 			(at 163.83 129.54 0)
 			(effects
 				(font
@@ -2306,6 +2306,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ32DC72A475KE01L"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2481,7 +2499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 129.54 67.818 90)
 			(effects
 				(font
@@ -2490,7 +2508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-PA_E_51_ROHS"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -2501,6 +2519,24 @@
 		)
 		(property "Description" "1%, 1W, Current Sense, Moisture Resistant"
 			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 129.54 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PA2512FKM070R005E"
+			(at 129.54 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_midvoltage_en.pdf"
 			(at 212.09 129.54 0)
 			(effects
 				(font
@@ -2584,6 +2620,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA3E2X7R2A102K080AA"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2637,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ32DC72A475KE01%23&displayChangeClass=productDetailPrint"
 			(at 149.86 129.54 0)
 			(effects
 				(font
@@ -2662,6 +2716,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ32DC72A475KE01L"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2847,7 +2919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 198.12 129.54 0)
 			(effects
 				(font
@@ -2872,6 +2944,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3058,7 +3148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6397/AutoMLCC-2952695-DS.pdf"
 			(at 93.98 129.54 0)
 			(effects
 				(font
@@ -3083,6 +3173,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 93.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "08051C105K4Z2A"
+			(at 93.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3136,7 +3244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_midvoltage_en.pdf"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -3161,6 +3269,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA3E2C0G2A101J080AA"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3215,7 +3341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 173.99 73.66 0)
 			(effects
 				(font
@@ -3225,6 +3351,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-0720KL"
 			(at 173.99 73.66 0)
 			(effects
 				(font
@@ -3276,7 +3420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01602HBWC_1x02_P5.08mm_Horizontal"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -3285,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tb006-508.pdf"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -3294,7 +3438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "0.200\" (5.08mm) Wire to Board Terminal Block Horizontal Through Hole"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -3354,7 +3498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 135.89 129.54 0)
 			(effects
 				(font
@@ -3379,6 +3523,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3432,7 +3594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -3457,6 +3619,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3510,7 +3690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7134/PdfFile_148489.pdf"
 			(at 173.99 96.52 0)
 			(effects
 				(font
@@ -3521,6 +3701,24 @@
 		)
 		(property "Description" "2.4V, 200mW, ±5%"
 			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay General Semiconductor - Diodes Division"
+			(at 173.99 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BZX384C2V4-E3-08"
+			(at 173.99 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -3670,6 +3868,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768MS566M1KLAE034"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3724,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/641/LTST-C193TBKT-5A.pdf"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -3744,6 +3960,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc"
+			(at 186.69 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C193TBKT-5A"
+			(at 186.69 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +4036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -3827,6 +4061,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3946,7 +4198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -3971,6 +4223,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4027,7 +4297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -4056,6 +4326,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MCC (Micro Commercial Components)"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MMBT3904-TP"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -4118,7 +4406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -4143,6 +4431,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768MS566M1KLAE034"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4196,7 +4502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -4221,6 +4527,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768MS566M1KLAE034"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4275,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -4285,6 +4609,24 @@
 			)
 		)
 		(property "Description" "5%, 0.1W"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-071KL"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -4344,7 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6397/AutoMLCC-2952695-DS.pdf"
 			(at 184.15 129.54 0)
 			(effects
 				(font
@@ -4369,6 +4711,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 184.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "08051C105K4Z2A"
+			(at 184.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

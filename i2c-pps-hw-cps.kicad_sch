@@ -4550,7 +4550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 207.01 149.86 0)
 			(effects
 				(font
@@ -4560,6 +4560,24 @@
 			)
 		)
 		(property "Description" "1%, 0.1W"
+			(at 207.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710RL"
 			(at 207.01 149.86 0)
 			(effects
 				(font
@@ -4619,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/87557/v1fm10.pdf"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -4629,6 +4647,24 @@
 			)
 		)
 		(property "Description" "Schottky, 1A, 100V, 770mV@1A, 50µA@100V, 95pF@4V, 1MHz, Fast Recovery"
+			(at 72.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay General Semiconductor - Diodes Division"
+			(at 72.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "V1FM10-M3/H"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -4677,7 +4713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "i2c-pps-hw:L_Bourns_SRP1038A_10.0x11.0mm"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -4686,7 +4722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -4695,8 +4731,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Isat 12A (Irms 7.5A), 30mOhm"
+		(property "Description" "±20%, Isat 12A (Irms 7.5A), 30mOhm"
 			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc"
+			(at 139.7 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRP1038A-100M"
+			(at 139.7 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -4766,6 +4820,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 168.91 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 207.01 99.06 0)
 			(effects
 				(font
@@ -4835,6 +4907,24 @@
 			)
 		)
 		(property "Description" "1%, 0.1W"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710RL"
 			(at 207.01 99.06 0)
 			(effects
 				(font
@@ -4912,6 +5002,15 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BQ25758SRRVR"
 			(at 139.7 143.51 0)
 			(effects
 				(font
@@ -5083,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -5093,6 +5192,24 @@
 			)
 		)
 		(property "Description" "1%, 0.1W"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710RL"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -5153,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1193/CL10B474KO8NNNC_Spec.pdf"
 			(at 215.9 107.95 0)
 			(effects
 				(font
@@ -5178,6 +5295,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 215.9 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B474KO8NNNC"
+			(at 215.9 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5232,7 +5367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 224.79 99.06 0)
 			(effects
 				(font
@@ -5242,6 +5377,24 @@
 			)
 		)
 		(property "Description" "1%, 0.1W"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710RL"
 			(at 224.79 99.06 0)
 			(effects
 				(font
@@ -5301,7 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -5326,6 +5479,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K3RACTU"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5379,7 +5550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 81.28 91.44 0)
 			(effects
 				(font
@@ -5404,6 +5575,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C104K3RACTU"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5457,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 224.79 167.64 0)
 			(effects
 				(font
@@ -5482,6 +5671,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 224.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 224.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5535,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/87557/v1fm10.pdf"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5545,6 +5752,24 @@
 			)
 		)
 		(property "Description" "Schottky, 1A, 100V, 770mV@1A, 50µA@100V, 95pF@4V, 1MHz, Fast Recovery"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay General Semiconductor - Diodes Division"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "V1FM10-M3/H"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5604,7 +5829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -5615,6 +5840,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 88.9 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,6 +5946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "SIR880BDP-T1-RE3"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "01fc8479-7e7a-4e95-b2a1-c9290b794cdb")
 		)
@@ -5763,7 +6015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -5774,6 +6026,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 168.91 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 69.85 135.89 0)
 			(effects
 				(font
@@ -5851,13 +6121,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 66.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5912,7 +6200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 207.01 167.64 0)
 			(effects
 				(font
@@ -5937,6 +6225,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 207.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 207.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6193,7 +6499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 224.79 116.84 0)
 			(effects
 				(font
@@ -6211,13 +6517,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 228.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6339,7 +6663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 54.61 135.89 0)
 			(effects
 				(font
@@ -6357,13 +6681,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 50.8 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6448,6 +6790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "SIR880BDP-T1-RE3"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "bd73133f-4d9d-4fe3-bf07-473e009b04a5")
 		)
@@ -6509,7 +6860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6397/AutoMLCC-2952695-DS.pdf"
 			(at 39.37 135.89 0)
 			(effects
 				(font
@@ -6527,13 +6878,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "08051C105K4Z2A"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6587,7 +6956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -6598,6 +6967,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 110.49 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +7044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"
 			(at 69.85 165.1 0)
 			(effects
 				(font
@@ -6682,6 +7069,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA4J1X7R1E475K125AE"
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6807,7 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 38.1 101.6 0)
 			(effects
 				(font
@@ -6818,6 +7223,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +7299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 110.49 67.31 0)
 			(effects
 				(font
@@ -6887,6 +7310,24 @@
 		)
 		(property "Description" "5%, 0.1W"
 			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 110.49 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-070RL"
+			(at 110.49 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,6 +7488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "SIR880BDP-T1-RE3"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0239be26-6b85-430f-a3e7-101301509d43")
 		)
@@ -7108,7 +7558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"
 			(at 54.61 165.1 0)
 			(effects
 				(font
@@ -7133,6 +7583,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA4J1X7R1E475K125AE"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7187,7 +7655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -7205,13 +7673,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7399,7 +7885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1193/CL10B474KO8NNNC_Spec.pdf"
 			(at 215.9 158.75 0)
 			(effects
 				(font
@@ -7424,6 +7910,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 215.9 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B474KO8NNNC"
+			(at 215.9 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7828,7 +8332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -7838,6 +8342,24 @@
 			)
 		)
 		(property "Description" "5%, 0.125W"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW08050000Z0EAC"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -7920,6 +8442,15 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Siliconix"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SIR880BDP-T1-RE3"
 			(at 160.02 41.91 0)
 			(effects
 				(font

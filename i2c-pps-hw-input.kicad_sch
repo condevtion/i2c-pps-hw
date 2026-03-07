@@ -1345,7 +1345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -1363,13 +1363,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 140.97 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1423,7 +1441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6397/AutoMLCC-2952695-DS.pdf"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -1441,13 +1459,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "08051C105K4Z2A"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1483,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27uF"
+		(property "Value" "47uF"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -1492,7 +1528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
 			(at 177.4952 85.09 0)
 			(effects
 				(font
@@ -1501,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 176.53 81.28 0)
 			(effects
 				(font
@@ -1519,13 +1555,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "20V"
+		(property "Rated Voltage" "35V"
 			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768EB476M1VLAE042"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1570,7 +1624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 163.83 75.438 90)
 			(effects
 				(font
@@ -1579,7 +1633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-PA_E_51_ROHS"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -1590,6 +1644,24 @@
 		)
 		(property "Description" "1%, 1W, Current Sense, Moisture Resistant"
 			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 163.83 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PA2512FKM070R005E"
+			(at 163.83 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27uF"
+		(property "Value" "47uF"
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -1639,7 +1711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
 			(at 138.1252 85.09 0)
 			(effects
 				(font
@@ -1648,7 +1720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -1666,13 +1738,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "20V"
+		(property "Rated Voltage" "35V"
 			(at 140.97 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768EB476M1VLAE042"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1708,7 +1798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27uF"
+		(property "Value" "47uF"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -1717,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
 			(at 152.0952 85.09 0)
 			(effects
 				(font
@@ -1726,7 +1816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at 151.13 81.28 0)
 			(effects
 				(font
@@ -1744,13 +1834,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "20V"
+		(property "Rated Voltage" "35V"
 			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A768EB476M1VLAE042"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1804,7 +1912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -1822,13 +1930,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA6N3X7R2A225K230AE"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1882,7 +2008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 165.1 119.38 0)
 			(effects
 				(font
@@ -1900,13 +2026,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2093,7 +2237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ32DC72A475KE01%23&displayChangeClass=productDetailPrint"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -2111,13 +2255,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 196.85 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 193.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ32DC72A475KE01L"
+			(at 193.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2171,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -2189,13 +2351,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3225X7R2A106K250AC"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2249,7 +2429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -2267,13 +2447,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 113.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2394,7 +2592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ32DC72A475KE01%23&displayChangeClass=productDetailPrint"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -2412,13 +2610,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 127 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ32DC72A475KE01L"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2472,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_midvoltage_en.pdf"
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -2490,13 +2706,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CGA3E2C0G2A101J080AA"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2617,7 +2851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ32DC72A475KE01%23&displayChangeClass=productDetailPrint"
 			(at 179.07 119.38 0)
 			(effects
 				(font
@@ -2635,13 +2869,31 @@
 				(hide yes)
 			)
 		)
-		(property "Rated Voltage" "25V"
+		(property "Rated Voltage" "100V"
 			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GCJ32DC72A475KE01L"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2696,7 +2948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-SR_20105_ROHS_L.pdf"
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -2706,6 +2958,24 @@
 			)
 		)
 		(property "Description" "1%, 0.75W"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SR1206FR-7T10RL"
 			(at 109.22 81.28 0)
 			(effects
 				(font
