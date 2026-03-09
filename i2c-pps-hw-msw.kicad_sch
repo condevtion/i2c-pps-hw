@@ -173,12 +173,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:D_Schottky_AAK"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -192,7 +189,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
+			(property "Value" "D_Schottky_AAK"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -218,7 +215,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" "Schottky diode, anode on pins 1 and 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -227,7 +224,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "diode Schottky SCHDPAK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -245,7 +242,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Schottky_AAK_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -270,9 +267,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -283,11 +291,29 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "D_Schottky_AAK_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,7 +329,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1710,6 +1736,12 @@
 		(uuid "4e1ebac5-f633-4cc0-87b2-b031a308bf1c")
 	)
 	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6f4cc5-2fef-4bc2-b08b-fb8db5678574")
+	)
+	(junction
 		(at 105.41 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a903622-4067-4b59-a213-6ff2f2e8be96")
+	)
+	(wire
+		(pts
 			(xy 105.41 114.3) (xy 87.63 114.3)
 		)
 		(stroke
@@ -1941,6 +1983,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 92.71) (xy 110.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f245cb-6acb-4ff9-8386-b93baf54a028")
+	)
+	(wire
+		(pts
 			(xy 118.11 109.22) (xy 118.11 114.3)
 		)
 		(stroke
@@ -1948,6 +2000,16 @@
 			(type default)
 		)
 		(uuid "65ceb571-b305-4232-b7af-c55587616d60")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b860d9a-016d-4b23-a55e-f427445271ad")
 	)
 	(wire
 		(pts
@@ -2051,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 114.3 90.17)
+			(xy 105.41 90.17) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
+		(lib_id "Device:D_Schottky_AAK")
 		(at 118.11 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2743,7 +2805,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dc2ed04-3fb0-4387-ac1b-74751e449e2f")
 		(property "Reference" "D4"
-			(at 118.4275 83.82 0)
+			(at 117.221 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2813,7 @@
 			)
 		)
 		(property "Value" "15A, 12V"
-			(at 118.4275 86.36 0)
+			(at 117.221 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv15100v-d.pdf"
+		(property "Datasheet" "~"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -2776,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "< 0.7V"
+		(property "Description" "Schottky diode, anode on pins 1 and 2"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -2808,6 +2870,9 @@
 		)
 		(pin "1"
 			(uuid "0919f2ad-14fd-4000-abc5-175c7988e18c")
+		)
+		(pin "3"
+			(uuid "ba14afd8-0bc0-4058-a27a-de2449922c54")
 		)
 		(instances
 			(project ""
