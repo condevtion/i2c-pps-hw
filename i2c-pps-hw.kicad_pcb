@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.704)
 		(legacy_teardrops no)
 	)
 	(paper "USLetter")
@@ -14,8 +14,8 @@
 	)
 	(layers
 		(0 "F.Cu" mixed)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" power)
+		(4 "In1.Cu" power)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" mixed)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -54,7 +54,7 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.07)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
@@ -65,7 +65,7 @@
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.052)
 			)
 			(layer "dielectric 2"
 				(type "core")
@@ -76,7 +76,7 @@
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.052)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
@@ -87,7 +87,7 @@
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.07)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -7856,7 +7856,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "e2c7252f-149d-4547-b006-e209099a38bf")
 		)
 		(pad "37" thru_hole circle
 			(at -1.55 1.16 90)
@@ -7868,7 +7868,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "5ccce1a2-b8ce-4e3b-bd22-1c7f7ef5eef2")
 		)
 		(pad "37" thru_hole circle
 			(at -0.615 -2.05 90)
@@ -7880,7 +7880,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "f65c1f5c-09d5-40b9-936f-e3ee4ee908ea")
 		)
 		(pad "37" thru_hole circle
 			(at -0.615 -1.16 90)
@@ -7892,7 +7892,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "2a454aa4-d8fa-49c2-9aae-af78b6f41ab8")
 		)
 		(pad "37" thru_hole circle
 			(at -0.615 0 90)
@@ -7904,7 +7904,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "b95d84a8-b2fe-465a-a82f-d1fef02d5f63")
 		)
 		(pad "37" thru_hole circle
 			(at -0.615 1.16 90)
@@ -7916,7 +7916,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "ca61da32-fa44-4017-9101-c6af834fdb86")
 		)
 		(pad "37" thru_hole circle
 			(at -0.615 2.05 90)
@@ -7928,7 +7928,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "4a4252ad-510b-4072-bf07-1e0af51ae2d4")
 		)
 		(pad "37" smd rect
 			(at 0 0 90)
@@ -7939,7 +7939,7 @@
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "5e3ae299-982c-447d-92dd-8f9500e3673b")
 		)
 		(pad "37" smd rect
 			(at 0 0 90)
@@ -7950,7 +7950,7 @@
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "3369e4fa-2998-4472-bfaf-02692e2cc303")
 		)
 		(pad "37" thru_hole circle
 			(at 0.615 -2.05 90)
@@ -7962,7 +7962,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "f983f26a-9f40-44e0-8036-68e620404398")
 		)
 		(pad "37" thru_hole circle
 			(at 0.615 -1.16 90)
@@ -7974,7 +7974,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "378d9cf2-556d-430a-bf33-dfa5876d4975")
 		)
 		(pad "37" thru_hole circle
 			(at 0.615 0 90)
@@ -7986,7 +7986,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "086f54a4-4e1b-4766-9761-19abb0e23fc2")
 		)
 		(pad "37" thru_hole circle
 			(at 0.615 1.16 90)
@@ -7998,7 +7998,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "6fcd314b-5098-4690-ae1d-d2da47727cf4")
 		)
 		(pad "37" thru_hole circle
 			(at 0.615 2.05 90)
@@ -8010,7 +8010,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "1b73fce6-fccd-4547-be2e-e7f816e92575")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 -1.16 90)
@@ -8022,7 +8022,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "119d7d17-5fb8-4594-bde9-34dfa2316ea8")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 0 90)
@@ -8034,7 +8034,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "2db2f770-25ca-45de-9208-05af6343da36")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 1.16 90)
@@ -8046,7 +8046,7 @@
 			(net 2 "GND")
 			(pinfunction "TH_PAD")
 			(pintype "power_in")
-			(uuid "246495f5-4ad0-42b4-8aea-702029ce23f4")
+			(uuid "62202a8d-fd20-4a67-a8a9-d1d2bb767a9f")
 		)
 		(embedded_fonts no)
 	)
