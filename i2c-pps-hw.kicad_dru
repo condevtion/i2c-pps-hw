@@ -97,7 +97,7 @@
 (rule "Pad Size"
 	(constraint hole_size (min 0.5mm))
 	(constraint annular_width (min 0.25mm))
-	(condition "A.Type == 'Pad' && A.isPlated()"))
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Fabrication_Property != 'Heatsink pad'"))
 
 (rule "Minimum Castellated Hole Size"
 	(constraint hole_size (min 0.6mm))

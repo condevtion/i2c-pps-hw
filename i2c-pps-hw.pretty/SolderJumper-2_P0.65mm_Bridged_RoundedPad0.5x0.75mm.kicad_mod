@@ -55,6 +55,7 @@
 	)
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1,2")
 	(fp_rect
 		(start -0.2 -0.15)
 		(end 0.2 0.15)
@@ -78,8 +79,8 @@
 		(uuid "12f41e31-ca25-414e-863a-4b2eb635b7be")
 	)
 	(fp_line
-		(start -0.8 0.1)
-		(end -0.8 -0.1)
+		(start -0.91 0.1)
+		(end -0.91 -0.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +89,8 @@
 		(uuid "de82bb78-5f7e-49fa-a45f-a8b9c041b390")
 	)
 	(fp_line
-		(start -0.4 -0.5)
-		(end 0.4 -0.5)
+		(start -0.4 -0.6)
+		(end 0.4 -0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +99,8 @@
 		(uuid "14005ce4-aac4-4f60-97c1-8f679ea0505d")
 	)
 	(fp_line
-		(start 0.4 0.5)
-		(end -0.4 0.5)
+		(start 0.4 0.6)
+		(end -0.4 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,8 +109,8 @@
 		(uuid "7b552825-e1ed-4a6a-bc85-f1996f0e4f83")
 	)
 	(fp_line
-		(start 0.8 -0.1)
-		(end 0.8 0.1)
+		(start 0.91 -0.1)
+		(end 0.91 0.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -118,9 +119,9 @@
 		(uuid "9786a955-80f2-47ba-9abf-26ed8070964b")
 	)
 	(fp_arc
-		(start -0.8 -0.1)
-		(mid -0.682843 -0.382843)
-		(end -0.4 -0.5)
+		(start -0.91 -0.1)
+		(mid -0.763553 -0.453553)
+		(end -0.41 -0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -129,9 +130,9 @@
 		(uuid "078a7cc5-90b6-415d-8e89-1009766aa766")
 	)
 	(fp_arc
-		(start -0.4 0.5)
-		(mid -0.682843 0.382843)
-		(end -0.8 0.1)
+		(start -0.41 0.6)
+		(mid -0.763553 0.453553)
+		(end -0.91 0.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -140,9 +141,9 @@
 		(uuid "3d1b9da9-c90b-4c9f-a123-2555e4b5ba46")
 	)
 	(fp_arc
-		(start 0.4 -0.5)
-		(mid 0.682843 -0.382843)
-		(end 0.8 -0.1)
+		(start 0.41 -0.6)
+		(mid 0.763553 -0.453553)
+		(end 0.91 -0.1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -151,9 +152,9 @@
 		(uuid "06d34efd-9b74-48e7-b390-e134701dbe5b")
 	)
 	(fp_arc
-		(start 0.8 0.1)
-		(mid 0.682843 0.382843)
-		(end 0.4 0.5)
+		(start 0.91 0.1)
+		(mid 0.763553 0.453553)
+		(end 0.41 0.6)
 		(stroke
 			(width 0.12)
 			(type solid)
