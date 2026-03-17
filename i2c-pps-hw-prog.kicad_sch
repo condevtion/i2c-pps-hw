@@ -388,6 +388,12 @@
 		(uuid "32e8b3bd-63f9-4843-9353-eaf641d18d10")
 	)
 	(junction
+		(at 234.95 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3427f874-33b7-42e0-b28d-2e49721d0f28")
+	)
+	(junction
 		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -495,6 +501,16 @@
 		)
 		(uuid "11f5bd6d-9b0e-42b6-8ab9-ca80277b5a91")
 	)
+	(wire
+		(pts
+			(xy 214.63 119.38) (xy 224.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1334f4b9-02d1-4435-be27-71787f9fbc06")
+	)
 	(bus
 		(pts
 			(xy 62.23 64.77) (xy 62.23 62.23)
@@ -564,6 +580,16 @@
 			(type default)
 		)
 		(uuid "322d4254-83b7-4805-914a-c276d52556e1")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377ce263-1aa7-425e-af00-be167665dfd2")
 	)
 	(wire
 		(pts
@@ -664,6 +690,16 @@
 			(type default)
 		)
 		(uuid "7ec59f64-9d1b-434f-8650-f4fc0786e328")
+	)
+	(wire
+		(pts
+			(xy 234.95 119.38) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8379a74d-862e-4395-b37b-cfd439a49f74")
 	)
 	(wire
 		(pts
@@ -897,6 +933,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 119.38) (xy 232.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef10fc67-c1ae-4ceb-a1ca-18d951a58791")
+	)
+	(wire
+		(pts
+			(xy 234.95 106.68) (xy 234.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00fa7bb-462a-447e-9899-83777100c2f9")
+	)
+	(wire
+		(pts
 			(xy 214.63 116.84) (xy 214.63 119.38)
 		)
 		(stroke
@@ -924,6 +980,16 @@
 			(type default)
 		)
 		(uuid "f4643544-8be1-4d10-a3e8-7a8116b862de")
+	)
+	(wire
+		(pts
+			(xy 232.41 106.68) (xy 234.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80113a0-543e-4f4d-907f-8710a4509d3f")
 	)
 	(wire
 		(pts
@@ -1686,6 +1752,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73c62c77-b8b5-4e40-b7fb-14f62b3f0ad7")
+		(property "Reference" "C49"
+			(at 228.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 228.6 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 232.41 118.4148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±10%, ceramic, X7R, AEC-Q200 Grade 1"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "100V"
+			(at 228.6 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "640cff59-9dd1-437c-b993-54eb349cc8ed")
+		)
+		(pin "1"
+			(uuid "55e96f6f-8ce9-4c0b-86cd-12bace3cb7ac")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/a1a482a8-2ecc-49e9-b6af-7f79d400d88a"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 101.6 0)
 		(unit 1)
@@ -2038,6 +2197,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a633da75-ac5a-4439-93ba-36a3902dabef")
+		(property "Reference" "C48"
+			(at 228.6 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 228.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 232.41 105.7148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±10%, ceramic, X7R, AEC-Q200 Grade 1"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Voltage" "100V"
+			(at 228.6 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HMK107B7104KAHT"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f7d4c39-48fb-486d-a472-ad389202a894")
+		)
+		(pin "1"
+			(uuid "f13b3c5b-bc6d-43be-a128-26363f498ad9")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/a1a482a8-2ecc-49e9-b6af-7f79d400d88a"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 129.54 0)
 		(unit 1)
@@ -2186,6 +2438,72 @@
 			(project "i2c-pps-hw"
 				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/a1a482a8-2ecc-49e9-b6af-7f79d400d88a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd8cd4f-bd87-4531-af8a-9ed2325f3ef9")
+		(property "Reference" "#PWR040"
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9dfc8e6-ddb3-49c1-8704-c1de401086b5")
+		)
+		(instances
+			(project "i2c-pps-hw"
+				(path "/512c4d3f-92f6-4670-bf9b-2123d46bbde3/a1a482a8-2ecc-49e9-b6af-7f79d400d88a"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
