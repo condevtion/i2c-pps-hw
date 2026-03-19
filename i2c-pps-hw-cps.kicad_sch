@@ -5907,7 +5907,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "i2c-pps-hw:PowerPAK_SO-8_Single_ThermalVias"
 			(at 124.46 43.815 0)
 			(effects
 				(font
@@ -6751,7 +6751,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "i2c-pps-hw:PowerPAK_SO-8_Single_ThermalVias"
 			(at 154.94 69.215 0)
 			(effects
 				(font
@@ -7449,7 +7449,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "i2c-pps-hw:PowerPAK_SO-8_Single_ThermalVias"
 			(at 124.46 69.215 0)
 			(effects
 				(font
@@ -8411,7 +8411,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "i2c-pps-hw:PowerPAK_SO-8_Single_ThermalVias"
 			(at 154.94 43.815 0)
 			(effects
 				(font
