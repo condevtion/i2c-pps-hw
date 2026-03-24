@@ -2840,7 +2840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+		(property "Footprint" "i2c-pps-hw:TO-277A_ThermalVias"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "i2c-pps-hw:Vishay_PowerPAK_1212-8_Single_ThermalVias"
 			(at 120.015 99.06 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "i2c-pps-hw:Vishay_PowerPAK_1212-8_Single_ThermalVias"
 			(at 188.595 99.06 0)
 			(effects
 				(font
