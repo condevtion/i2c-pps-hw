@@ -1908,13 +1908,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 67.31 93.98)
+			(xy 55.88 96.52) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4093e5c7-61c7-4e17-acdd-f3eb40551478")
+		(uuid "415e4bd6-7e16-482b-abb9-8def8113bdbd")
 	)
 	(wire
 		(pts
@@ -2005,6 +2005,26 @@
 			(type default)
 		)
 		(uuid "5f97d48e-a353-402b-9aed-23ab485181cb")
+	)
+	(wire
+		(pts
+			(xy 55.88 109.22) (xy 67.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6413cb2e-9a61-4bdd-a790-c04f14500748")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c48e54-e30c-4f01-9ddd-8deb82d8202a")
 	)
 	(wire
 		(pts
@@ -2176,6 +2196,16 @@
 		)
 		(uuid "83115c6f-41e7-4ea0-a45d-69ff481a68ef")
 	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83476258-cbbd-4b35-bcab-d220c29aae4b")
+	)
 	(bus
 		(pts
 			(xy 59.69 55.88) (xy 59.69 58.42)
@@ -2278,26 +2308,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 67.31 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc86675-2468-4c2d-9c59-93d6ed6dfd2a")
-	)
-	(wire
-		(pts
-			(xy 67.31 96.52) (xy 55.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa6f580-d23d-4210-92bf-8e54120b73b0")
-	)
-	(wire
-		(pts
 			(xy 214.63 106.68) (xy 214.63 114.3)
 		)
 		(stroke
@@ -2385,16 +2395,6 @@
 			(type default)
 		)
 		(uuid "cb8db439-c33f-4fac-8b14-bb3a150269c7")
-	)
-	(wire
-		(pts
-			(xy 55.88 109.22) (xy 67.31 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6ee12b-d08c-4481-b332-1aedb430d0ff")
 	)
 	(wire
 		(pts
@@ -2617,7 +2617,7 @@
 		(uuid "7759c558-6b4a-4425-845d-2479885f7a5e")
 	)
 	(label "+5V_Prot"
-		(at 67.31 93.98 180)
+		(at 67.31 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 		(uuid "8f5a34f2-9037-47c4-a3aa-805bddfd6eca")
 	)
 	(label "SDA"
-		(at 67.31 106.68 180)
+		(at 67.31 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2647,7 +2647,7 @@
 		(uuid "8fae3e2d-f08a-40fb-bbd9-8fa54a89f3a2")
 	)
 	(label "CE"
-		(at 67.31 109.22 180)
+		(at 67.31 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,7 +2717,7 @@
 		(uuid "c2dc9924-4401-4e94-b4b4-33a829ae1cb6")
 	)
 	(label "3.3v"
-		(at 67.31 96.52 180)
+		(at 67.31 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
