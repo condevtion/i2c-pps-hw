@@ -3467,6 +3467,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TB006-508-02BE"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e80673aa-3fd3-4699-a48f-c440caa729fc")
 		)
