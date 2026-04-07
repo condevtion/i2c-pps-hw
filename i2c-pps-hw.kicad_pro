@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Perspective",
+        "ww": 1.0,
+        "wx": -22.38799476623535,
+        "wy": 3.8240694999694824,
+        "wz": -15.306869506835938,
+        "xw": 0.0,
+        "xx": 0.8660244941711426,
+        "xy": 0.38343530893325806,
+        "xz": -0.3209032416343689,
+        "yw": 0.0,
+        "yx": -0.5000009536743164,
+        "yy": 0.663175642490387,
+        "yz": -0.5569533705711365,
+        "zw": 0.0,
+        "zx": -0.0007403531926684082,
+        "zy": 0.6427872180938721,
+        "zz": 0.7660443782806396
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -48,7 +68,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1778
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
